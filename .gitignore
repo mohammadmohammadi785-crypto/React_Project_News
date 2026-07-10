@@ -10,8 +10,8 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
-fontawesome-free-5.15.4-web
 *.local
+fontawesome-free-5.15.4-web
 
 # Editor directories and files
 .vscode/*
