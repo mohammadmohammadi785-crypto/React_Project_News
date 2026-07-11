@@ -1,6 +1,6 @@
 export default function SecondHeader() {
   return (
-    <div className="w-full bg-brand py-8 h-1/4 max-w-6xl mx-auto flex flex-2 gap-2.5 justify-between items-center">
+    <div className="w-full bg-brand py-10 h-1/2 max-w-6xl mx-auto flex flex-2 gap-2.5 justify-between items-center">
       <div className="flex items-center uppercase">
         <h1 className="text-4xl font-bold text-secondry">next</h1>
         <h1 className="text-4xl text-white">Page</h1>
