@@ -40,9 +40,14 @@ export default function Header() {
         <div className="flex space-x-4 items-center">
           <div className="flex space-x-2.5 items-center relative after:content-[''] after:h-full after:w-0.5 after:bg-[#1c3272] after:absolute after:-right-2 ">
             <CalendarDaysIcon />
-            <span>{day}</span>
-            <span>{new Date().getMonth()}</span>
-            <span>{new Date().getDate()}</span>
+            <span>
+              {new Date().toLocaleDateString("en-US", {
+                weekday: "long",
+                month: "long",
+                day: "numeric",
+                year: "numeric",
+              })}
+            </span>
           </div>
           <div className="flex space-x-2.5">
             <div className="flex justify-center items-center p-2 bg-blue-900  rounded-full">

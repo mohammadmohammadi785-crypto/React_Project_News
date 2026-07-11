@@ -18,6 +18,15 @@ export default function Hero() {
         <h1 className="text-5xl text-white font-medium">
           ReZoom outage left some people locked out
         </h1>
+        <p className="text-white text-sm">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi
+          expedita vitae minus non ducimus aliquam.
+        </p>
+        <div className="flex gap-5">
+          <button className="bg-[#1b3050]  text-white py-4 px-8 rounded-md">
+            Read More
+          </button>
+        </div>
       </div>
     </div>
   );
