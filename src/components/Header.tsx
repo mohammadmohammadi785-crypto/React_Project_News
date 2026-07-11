@@ -3,31 +3,6 @@ import { Link } from "react-router-dom";
 // import { Link } from "react-router-dom";
 
 export default function Header() {
-  const DayNumber = new Date().getDay();
-  let day = "";
-  switch (DayNumber) {
-    case 0:
-      day = "Sunday.";
-      break;
-    case 1:
-      day = "Monday.";
-      break;
-    case 2:
-      day = "Tuesday.";
-      break;
-    case 3:
-      day = "Wednesday.";
-      break;
-    case 4:
-      day = "Thursday.";
-      break;
-    case 5:
-      day = "Friday.";
-      break;
-    default:
-      day = "Saturday.";
-      break;
-  }
   return (
     <div className="bg-[#1b3050] w-full py-5 text-stone-300">
       <div className="w-full max-w-6xl mx-auto flex justify-between">

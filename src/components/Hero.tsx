@@ -23,8 +23,14 @@ export default function Hero() {
           expedita vitae minus non ducimus aliquam.
         </p>
         <div className="flex gap-5">
-          <button className="bg-[#1b3050]  text-white py-4 px-8 rounded-md">
-            Read More
+          <button
+            className="bg-[#1b3050] text-white py-4 px-8 rounded-md
+           relative overflow-hidden after:absolute after:left-0 after:top-0 after:h-full
+           after:w-0 after:bg-light-blue after:transition-all after:duration-300
+           hover:after:w-full
+          "
+          >
+            <span className=" relative z-10 text-white">Read More</span>
           </button>
         </div>
       </div>
