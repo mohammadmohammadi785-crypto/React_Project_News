@@ -1,4 +1,5 @@
 import { CalendarDaysIcon } from "lucide-react";
+import { Link } from "react-router-dom";
 // import { Link } from "react-router-dom";
 
 export default function Header() {
@@ -31,13 +32,13 @@ export default function Header() {
     <div className="bg-[#1b3050] w-full py-5 text-stone-300">
       <div className="w-full max-w-6xl mx-auto flex justify-between">
         <div className="flex space-x-4 justify-center items-center">
-          <a href="#">Author</a>
-          <a href="#">Advertisment</a>
-          <a href="#">Member</a>
-          <a href="#">Sitemap</a>
+          <Link to="#">Author</Link>
+          <Link to="#">Advertisment</Link>
+          <Link to="#">Member</Link>
+          <Link to="#">Sitemap</Link>
         </div>
         <div className="flex space-x-4 items-center">
-          <div className="flex space-x-2.5 items-center relative after:content-[''] after:h-full after:w-0.5 after:bg-blue-900 after:absolute after:-right-2 ">
+          <div className="flex space-x-2.5 items-center relative after:content-[''] after:h-full after:w-0.5 after:bg-[#1c3272] after:absolute after:-right-2 ">
             <CalendarDaysIcon />
             <span>{day}</span>
             <span>{new Date().getMonth()}</span>
