@@ -6,7 +6,7 @@ import SecondHeader from "./components/SecondHeader";
 
 export default function App() {
   return (
-    <div className="font-rubik w-full text-sm bg-brand min-h-screen">
+    <div className="font-rubik w-full text-sm min-h-screen">
       <Header />
       <SecondHeader />
       <Navbar />

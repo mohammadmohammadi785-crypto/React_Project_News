@@ -39,7 +39,7 @@ export default function Featured_News() {
     },
   ];
   return (
-    <div className="py-5 w-full">
+    <div className="py-5 w-full bg-brand">
       <div className="w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
         {newsList.map((news) => {
           return <News_Card news={news} key={news.id} />;
