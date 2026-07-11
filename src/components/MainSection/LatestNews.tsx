@@ -1,3 +1,3 @@
 export default function LatestNews() {
-  return <div></div>;
+  return <div>Latest News</div>;
 }

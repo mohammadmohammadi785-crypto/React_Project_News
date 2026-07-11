@@ -1,3 +1,3 @@
 export default function WhatsNews() {
-  return <div></div>;
+  return <div>Whats news</div>;
 }
