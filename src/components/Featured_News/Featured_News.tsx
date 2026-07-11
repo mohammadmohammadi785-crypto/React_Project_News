@@ -1,4 +1,4 @@
-import News_Card from "./Card/News_Card";
+import News_Card from "./News_Card";
 
 export default function Featured_News() {
   const newsList: {

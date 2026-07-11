@@ -1,6 +1,6 @@
-import Featured_News from "./components/Featured_News";
+import Featured_News from "./components/Featured_News/Featured_News";
 import Header from "./components/Header";
-import Hero from "./components/Hero";
+import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar";
 import SecondHeader from "./components/SecondHeader";
 

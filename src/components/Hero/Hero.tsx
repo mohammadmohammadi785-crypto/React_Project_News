@@ -1,5 +1,5 @@
 import { Clock } from "lucide-react";
-import HeroCard from "./Card/HeroCard";
+import HeroCard from "./HeroCard";
 
 export default function Hero() {
   return (
