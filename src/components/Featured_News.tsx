@@ -1,5 +1,4 @@
-import { Clock } from "lucide-react";
-import News_Card from "./News_Card";
+import News_Card from "./Card/News_Card";
 
 export default function Featured_News() {
   const newsList: {

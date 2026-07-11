@@ -1,3 +1,4 @@
+import Featured_News from "./components/Featured_News";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -10,6 +11,7 @@ export default function App() {
       <SecondHeader />
       <Navbar />
       <Hero />
+      <Featured_News />
     </div>
   );
 }

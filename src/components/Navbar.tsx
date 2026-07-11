@@ -29,7 +29,7 @@ export default function Navbar() {
     },
   ];
   return (
-    <div className="w-full py-5 sticky top-0 right-0 bg-[#008cff]">
+    <div className="w-full py-5 sticky z-50 top-0 right-0 bg-[#008cff]">
       <div className="w-full max-w-6xl mx-auto flex items-center">
         <div className="flex space-x-12">
           {Links.map((link, index) => {

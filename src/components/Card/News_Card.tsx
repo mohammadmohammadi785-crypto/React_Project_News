@@ -11,7 +11,7 @@ export default function News_Card({
 }) {
   return (
     <div className="w-full flex flex-col gap-8">
-      <img src={news.imageUrl} className="w-full rounded-md" alt="" />
+      <img src={news.imageUrl} className="w-full h-50 rounded-md" alt="" />
     </div>
   );
 }

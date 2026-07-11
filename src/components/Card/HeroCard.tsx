@@ -1,6 +1,6 @@
 export default function HeroCard() {
   return (
-    <div className="w-[95%] relative h-80 z-0">
+    <div className="w-full relative h-90 z-0">
       <div className="z-30 w-full h-full">
         <img
           className="w-full rounded-md absolute  top-5 left-5 object-cover h-full"
