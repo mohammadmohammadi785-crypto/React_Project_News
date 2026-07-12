@@ -1,7 +1,7 @@
 import ContactUs from "./ContactUs";
 import LatestNews from "./LatestNews";
 import TrandingNews from "./TrandingNews";
-import WhatsNews from "./WhatsNews";
+import WhatsNew from "./WhatsNew";
 
 export default function MainSection() {
   return (
@@ -9,7 +9,7 @@ export default function MainSection() {
       <div className=" w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4">
         <TrandingNews />
         <LatestNews />
-        <WhatsNews />
+        <WhatsNew />
         <ContactUs />
       </div>
     </div>
