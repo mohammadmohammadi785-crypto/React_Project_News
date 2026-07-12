@@ -13,7 +13,11 @@ export default function Hero() {
             </button>
             <span className="text-white text-sm items-center flex gap-1">
               <Clock size={16} />
-              {new Date().toLocaleDateString()}
+              {new Date().toLocaleDateString("en-US", {
+                month: "2-digit",
+                day: "numeric",
+                year: "numeric",
+              })}
             </span>
           </div>
           <h1 className="text-5xl text-white font-medium">
