@@ -14,7 +14,7 @@ export default function Hero() {
             <span className="text-white text-sm items-center flex gap-1">
               <Clock size={16} />
               {new Date().toLocaleDateString("en-US", {
-                month: "2-digit",
+                month: "short",
                 day: "numeric",
                 year: "numeric",
               })}
