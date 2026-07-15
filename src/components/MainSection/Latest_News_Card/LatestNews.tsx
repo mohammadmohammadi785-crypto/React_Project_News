@@ -1,20 +1,20 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import LatestNewsCard from "./latestNewsCard";
+import LatestNewsCard from "./LatestNewsCard";
 export default function LatestNews() {
   const latestNews: { id: number; title: string; image_url: string }[] = [
     {
       id: 1,
-      title: "The Faa will test Drone",
+      title: "Himachal Pradesh rules in order to allow tourists",
       image_url: "./images/l1.jpg",
     },
     {
       id: 2,
-      title: "Fight schedule and quarantine",
+      title: "Online registration, booking for Vaishno Devi",
       image_url: "./images/l2.jpg",
     },
     {
       id: 3,
-      title: "Indore bags cleanest city",
+      title: "",
       image_url: "./images/l3.jpg",
     },
     {
@@ -37,7 +37,7 @@ export default function LatestNews() {
           <ChevronRight className="text-light-blue" />
         </div>
       </div>
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-2 mt-6 ml-2 justify-center">
         {latestNews.map((news) => (
           <LatestNewsCard news={news} key={news.id} />
         ))}

@@ -7,21 +7,25 @@ export default function LatestNewsCard({
 }) {
   return (
     <div className="flex w-full gap-2">
-      <div>
-        <img src={news.image_url} alt="" />
+      <div className="w-50 h-20">
+        <img
+          className="rounded-md w-full h-full object-cover"
+          src={news.image_url}
+          alt=""
+        />
       </div>
-      <div className="flex flex-col">
-        <div className="flex  flex-col w-full justify-center absolute bottom-0 left-0 p-4">
-          <span className="text-white text-sm items-center z-20 flex gap-1">
-            <Clock size={14} />
+      <div className="flex gap-1 flex-col">
+        <div className="flex items-center gap-1 text-gray-500">
+          <Clock size={14} />
+          <span className="text-xs">
             {new Date().toLocaleDateString("en-US", {
               month: "long",
               day: "numeric",
               year: "numeric",
             })}
           </span>
-          <span className="text-white z-20">{news.title}</span>
         </div>
+        <span className="text-sm">{news.title}</span>
       </div>
     </div>
   );

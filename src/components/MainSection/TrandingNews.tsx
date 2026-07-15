@@ -27,7 +27,7 @@ export default function TrandingNews() {
           <ChevronRight className="text-light-blue" />
         </div>
       </div>
-      <div className="w-full flex gap-4 flex-col mt-12">
+      <div className="w-full flex gap-4 flex-col mt-6">
         {trandingNews.map((news) => (
           <div
             key={news.id}
