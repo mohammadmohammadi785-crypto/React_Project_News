@@ -7,7 +7,7 @@ export default function LatestNewsCard({
 }) {
   return (
     <div className="flex w-full gap-2">
-      <div className="w-50 h-20">
+      <div className="w-49 h-20">
         <img
           className="rounded-md w-full h-full object-cover"
           src={news.image_url}

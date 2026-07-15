@@ -9,22 +9,22 @@ export default function LatestNews() {
     },
     {
       id: 2,
-      title: "Online registration, booking for Vaishno Devi",
+      title: "Online registration, booking for Vaishno Devi 20",
       image_url: "./images/l2.jpg",
     },
     {
       id: 3,
-      title: "",
+      title: "Detecting technologies in airports this year 2026",
       image_url: "./images/l3.jpg",
     },
     {
       id: 4,
-      title: "Indore bags cleanest city",
+      title: "The FAA will drone detect-ing in airports this year",
       image_url: "./images/l4.jpg",
     },
     {
       id: 5,
-      title: "Indore bags cleanest city",
+      title: "Thailand makes it mand-atory for tourists to stay",
       image_url: "./images/l5.jpg",
     },
   ];
