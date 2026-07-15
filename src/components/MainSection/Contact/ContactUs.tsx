@@ -4,33 +4,33 @@ export default function ContactUs() {
   const contactList = [
     {
       id: 1,
-      icon: "F",
+      icon: "fa-facebook",
       followers: 12300,
-      bage: "Like",
+      badge: "Like",
     },
     {
       id: 2,
-      icon: "fab fa-twitter",
+      icon: "fa-twitter",
       followers: 12600,
-      bage: "Followers",
+      badge: "Followers",
     },
     {
       id: 3,
-      icon: "fab fa-youtube",
+      icon: "fa-youtube",
       followers: 1300,
-      bage: "Subscribers",
+      badge: "Subscribers",
     },
     {
       id: 4,
-      icon: "fab fa-instagrame",
+      icon: "fa-instagram",
       followers: 52400,
-      bage: "Followers",
+      badge: "Followers",
     },
     {
       id: 5,
-      icon: "fab fa-google",
+      icon: "fa-google",
       followers: 12300,
-      bage: "Like",
+      badge: "Like",
     },
   ];
   return (
