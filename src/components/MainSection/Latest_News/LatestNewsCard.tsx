@@ -25,7 +25,9 @@ export default function LatestNewsCard({
             })}
           </span>
         </div>
-        <span className="text-sm">{news.title}</span>
+        <span className="text-sm text-brand hover:cursor-pointer hover:text-sky-700 transition-all duration-700 font-bold">
+          {news.title}
+        </span>
       </div>
     </div>
   );

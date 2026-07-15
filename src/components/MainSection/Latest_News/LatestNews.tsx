@@ -31,7 +31,7 @@ export default function LatestNews() {
   return (
     <div className="w-70">
       <div className="flex justify-between items-center gap-20 w-full">
-        <h1 className="text-blue-900 text-xl font-bold">Latest News</h1>
+        <h1 className="text-blue-900 text-[18px] font-bold">Latest News</h1>
         <div className="flex text-xs gap-5">
           <ChevronLeft className="text-light-blue" />
           <ChevronRight className="text-light-blue" />

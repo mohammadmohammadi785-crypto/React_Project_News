@@ -34,15 +34,15 @@ export default function TrandingNews() {
             className="w-70 after:content-[''] after:absolute after:w-70 after:h-3/5 after:blur-xl after:bottom-0 after:right-0 after:bg-blue-900/50 overflow-hidden rounded-md h-28 relative"
           >
             <div className="flex flex-col w-full justify-center absolute bottom-0 left-0 p-4">
-              <span className="text-white text-sm items-center z-20 flex gap-1">
-                <Clock size={14} />
+              <span className="text-white text-xs items-center z-20 flex gap-1">
+                <Clock size={10} />
                 {new Date().toLocaleDateString("en-US", {
                   month: "long",
                   day: "numeric",
                   year: "numeric",
                 })}
               </span>
-              <span className="text-white z-20">{news.title}</span>
+              <span className="text-white text-sm z-20">{news.title}</span>
             </div>
             <img
               src={news.image_url}
