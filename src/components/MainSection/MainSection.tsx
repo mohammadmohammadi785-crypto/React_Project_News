@@ -1,5 +1,5 @@
 import ContactUs from "./ContactUs";
-import LatestNews from "./LatestNews";
+import LatestNews from "./Latest_News_Card/LatestNews";
 import TrandingNews from "./TrandingNews";
 import WhatsNew from "./WhatsNew";
 
