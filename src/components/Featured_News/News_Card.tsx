@@ -13,7 +13,7 @@ export default function News_Card({
     <div className="w-full flex flex-col gap-8">
       <div className="w-full relative overflow-hidden h-50 hover:rounded-md rounded-md">
         <span
-          className={`py-1 px-3 absolute top-4 left-4 z-50 text-white rounded-md ${news.badge === "Tech" ? "bg-light-blue" : "bg-orange-500"}`}
+          className={`py-1 px-3 absolute top-4 left-4 z-20 text-white rounded-md ${news.badge === "Tech" ? "bg-light-blue" : "bg-orange-500"}`}
         >
           {news.badge}
         </span>
