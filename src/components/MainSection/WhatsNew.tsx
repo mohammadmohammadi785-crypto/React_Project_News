@@ -10,6 +10,9 @@ export default function WhatsNew() {
           <ChevronRight className="text-light-blue" />
         </div>
       </div>
+      <div className="w-full h-44">
+        <img src="" alt="" />
+      </div>
     </div>
   );
 }
