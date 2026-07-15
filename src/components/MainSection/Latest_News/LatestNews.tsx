@@ -30,14 +30,14 @@ export default function LatestNews() {
   ];
   return (
     <div className="w-full">
-      <div className="flex justify-center items-center gap-20 w-full">
-        <h1 className="text-blue-900 text-xl font-medium">Latest News</h1>
+      <div className="flex justify-between items-center gap-20 w-full">
+        <h1 className="text-blue-900 text-xl font-bold">Latest News</h1>
         <div className="flex text-xs gap-5">
           <ChevronLeft className="text-light-blue" />
           <ChevronRight className="text-light-blue" />
         </div>
       </div>
-      <div className="flex flex-col gap-2 mt-6 ml-2 justify-center">
+      <div className="flex flex-col gap-2 mt-1 justify-center">
         {latestNews.map((news) => (
           <LatestNewsCard news={news} key={news.id} />
         ))}
