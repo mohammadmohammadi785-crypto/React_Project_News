@@ -3,34 +3,29 @@ import ContactCard from "./ContactCard";
 export default function ContactUs() {
   const contactList = [
     {
-      id: 1,
       icon: "fa-facebook",
-      followers: 12300,
+      followers: "12,300",
       badge: "Like",
     },
     {
-      id: 2,
       icon: "fa-twitter",
-      followers: 12600,
+      followers: "12,600",
       badge: "Followers",
     },
     {
-      id: 3,
       icon: "fa-youtube",
-      followers: 1300,
+      followers: "1,300",
       badge: "Subscribers",
     },
     {
-      id: 4,
       icon: "fa-instagram",
-      followers: 52400,
+      followers: "52,400",
       badge: "Followers",
     },
     {
-      id: 5,
       icon: "fa-google",
-      followers: 12300,
-      badge: "Like",
+      followers: "19,101",
+      badge: "Subscribers",
     },
   ];
   return (
@@ -40,7 +35,7 @@ export default function ContactUs() {
       </div>
       <div className="flex flex-col w-full gap-2">
         {contactList.map((contact) => (
-          <ContactCard contact={contact} key={contact.id} />
+          <ContactCard contact={contact} />
         ))}
       </div>
     </div>
