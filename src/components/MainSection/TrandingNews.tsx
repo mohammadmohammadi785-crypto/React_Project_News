@@ -1,6 +1,23 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 export default function TrandingNews() {
+  const trandingNews = [
+    {
+      id: 1,
+      title: "The Faa will test Drone",
+      image_url: "./images/5.jpg",
+    },
+    {
+      id: 1,
+      title: "The Faa will test Drone",
+      image_url: "./images/5.jpg",
+    },
+    {
+      id: 1,
+      title: "The Faa will test Drone",
+      image_url: "./images/5.jpg",
+    },
+  ];
   return (
     <div className="w-full">
       <div className="flex justify-center items-center gap-20 w-full">
