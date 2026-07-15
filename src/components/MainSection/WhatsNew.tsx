@@ -28,11 +28,13 @@ export default function WhatsNew() {
           </span>
         </div>
         <div className="mt-5">
-          <h1 className="">
+          <h1 className="text-1xl font-bold">
             Uttarakhand's HemKund Sahib yatra to start form Septomber 4
           </h1>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, ab.
+          <p className="mt-3">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi
+            explicabo eligendi libero aut provident harum atque magnam ipsa nam
+            itaque.
           </p>
         </div>
       </div>

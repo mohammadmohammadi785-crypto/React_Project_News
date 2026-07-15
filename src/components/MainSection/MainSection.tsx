@@ -1,4 +1,4 @@
-import ContactUs from "./ContactUs";
+import ContactUs from "./Contact/ContactUs";
 import LatestNews from "./Latest_News/LatestNews";
 import TrandingNews from "./TrandingNews";
 import WhatsNew from "./WhatsNew";
