@@ -29,13 +29,13 @@ export default function Navbar() {
     },
   ];
   return (
-    <div className="w-full py-5 sticky z-50 top-0 right-0 bg-[#008cff]">
+    <div className="w-full py-5 sticky z-50 top-0 right-0 bg-[#1979c7]">
       <div className="w-full max-w-6xl mx-auto flex justify-between items-center">
         <div className="flex space-x-10 justify-center items-center">
           {Links.map((link, index) => {
             return (
               <Link
-                className="text-white text-sm uppercase after:content-[''] relative after:absolute after:-top-1.5 after:-right-2 after:h-8 after:w-0.5 after:bg-sky-300"
+                className="text-white text-sm uppercase after:content-[''] relative after:absolute after:-top-3 after:-right-2 after:h-12 after:w-px after:bg-sky-300/30"
                 key={index}
                 to={link.link}
               >
@@ -44,13 +44,14 @@ export default function Navbar() {
             );
           })}
         </div>
-        {/* <div className="w-full flex justify-center items-center">
+        <div className="flex relative justify-between items-center">
           <input
             type="search"
-            placeholder="search"
-            className=" py-1 focus:outline-0 border px-1 border-white placeholder:text-white w-1/3"
+            placeholder="search for"
+            className=" py-3 focus:outline-0 px-5 w-full bg-[#195c94] placeholder:text-gray-100/40"
           />
-        </div> */}
+          <i className="fas absolute top-4 right-4 text-white/50 fa-search"></i>
+        </div>
       </div>
     </div>
   );
