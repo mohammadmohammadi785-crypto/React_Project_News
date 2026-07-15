@@ -6,7 +6,7 @@ export default function LatestNewsCard({
   news: { id: number; title: string; image_url: string };
 }) {
   return (
-    <div className="flex w-full gap-2">
+    <div className="flex w-full gap-3">
       <div className="w-49 h-20">
         <img
           className="rounded-md w-full h-full object-cover"
@@ -15,9 +15,9 @@ export default function LatestNewsCard({
         />
       </div>
       <div className="flex gap-1 flex-col">
-        <div className="flex items-center gap-1 text-gray-500">
+        <div className="flex items-center gap-1  text-brand">
           <Clock size={14} />
-          <span className="text-xs">
+          <span className="text-xs font-bold">
             {new Date().toLocaleDateString("en-US", {
               month: "long",
               day: "numeric",

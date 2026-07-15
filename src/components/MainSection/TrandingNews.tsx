@@ -19,15 +19,15 @@ export default function TrandingNews() {
     },
   ];
   return (
-    <div className="w-full">
-      <div className="flex justify-between items-center w-full">
+    <div className="w-70">
+      <div className="flex justify-between items-center gap-20 w-full">
         <h1 className="text-blue-900 text-[18px] font-bold">Trending News</h1>
-        <div className="flex text-xs gap-3">
+        <div className="flex text-xs gap-5">
           <ChevronLeft className="text-light-blue" />
           <ChevronRight className="text-light-blue" />
         </div>
       </div>
-      <div className="w-full flex gap-1 flex-col mt-6">
+      <div className="w-full gap-y-4 gap-2 flex flex-col mt-6">
         {trandingNews.map((news) => (
           <div
             key={news.id}
