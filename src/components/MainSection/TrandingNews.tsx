@@ -20,20 +20,20 @@ export default function TrandingNews() {
   ];
   return (
     <div className="w-full">
-      <div className="flex justify-between items-center gap-18 w-full">
-        <h1 className="text-blue-900 text-xl font-bold">Trending News</h1>
-        <div className="flex text-xs gap-5">
+      <div className="flex justify-between items-center w-full">
+        <h1 className="text-blue-900 text-[18px] font-bold">Trending News</h1>
+        <div className="flex text-xs gap-3">
           <ChevronLeft className="text-light-blue" />
           <ChevronRight className="text-light-blue" />
         </div>
       </div>
-      <div className="w-full flex gap-1 flex-col mt-1">
+      <div className="w-full flex gap-1 flex-col mt-6">
         {trandingNews.map((news) => (
           <div
             key={news.id}
-            className="w-full after:content-[''] after:absolute after:w-full after:h-3/5 after:blur-xl after:bottom-0 after:right-0 after:bg-blue-900/50 overflow-hidden rounded-md h-28 relative"
+            className="w-70 after:content-[''] after:absolute after:w-70 after:h-3/5 after:blur-xl after:bottom-0 after:right-0 after:bg-blue-900/50 overflow-hidden rounded-md h-28 relative"
           >
-            <div className="flex  flex-col w-full justify-center absolute bottom-0 left-0 p-4">
+            <div className="flex flex-col w-full justify-center absolute bottom-0 left-0 p-4">
               <span className="text-white text-sm items-center z-20 flex gap-1">
                 <Clock size={14} />
                 {new Date().toLocaleDateString("en-US", {
