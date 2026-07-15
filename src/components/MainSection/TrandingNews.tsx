@@ -29,23 +29,24 @@ export default function TrandingNews() {
       </div>
       <div className="w-full flex gap-4 flex-col mt-12">
         {trandingNews.map((news) => (
-          <div key={news.id} className="w-full rounded-md h-28 relative">
-            {/* <div className="flex flex-col justify-end absolute bottom-10 left-2"></div> */}
-            <div className="flex flex-col w-full justify-center absolute bottom-0 left-0 p-4">
-              <span className="text-white text-xs items-center flex gap-1">
+          <div
+            key={news.id}
+            className="w-full after:content-[''] after:absolute after:w-full after:h-3/5 after:blur-xl after:bottom-0 after:right-0 after:bg-blue-900/50 overflow-hidden rounded-md h-28 relative"
+          >
+            <div className="flex  flex-col w-full justify-center absolute bottom-0 left-0 p-4">
+              <span className="text-white text-sm items-center z-20 flex gap-1">
                 <Clock size={14} />
                 {new Date().toLocaleDateString("en-US", {
-                  weekday: "long",
                   month: "long",
                   day: "numeric",
                   year: "numeric",
                 })}
               </span>
-              <span className="text-white">{news.title}</span>
+              <span className="text-white z-20">{news.title}</span>
             </div>
             <img
               src={news.image_url}
-              className="w-full object-cover h-full rounded-md"
+              className="w-full object-cover transition-all duration-700 overflow-hidden hover:scale-105 h-full rounded-md"
               alt=""
             />
           </div>
