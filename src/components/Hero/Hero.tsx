@@ -1,7 +1,16 @@
 import { Clock } from "lucide-react";
 import HeroCard from "./HeroCard";
+import { useEffect } from "react";
+import { GetLatestNews } from "../../api/getLatestNews";
 
 export default function Hero() {
+  useEffect(() => {
+    async function getData() {
+      const data = await GetLatestNews();
+      console.log(data);
+    }
+    getData();
+  }, []);
   return (
     <div className="w-full bg-brand">
       <div className="w-full py-8 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-15">
